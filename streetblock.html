@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street Block - CSS</title>
+    <style>
+        body {
+            background-color: #223;
+        }
+        .street {
+            border: 1px dotted red;
+        }
+        .house {
+            
+            height: 150px;
+            width: 100px;
+            display: inline-block;
+            
+        }
+
+        .building-tall {
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            background-color: yellowgreen;
+        }
+        .tall-window1 {
+            height: 50px;
+            width: 50px;
+            border: 2px solid blue;
+            background-color: #fff;
+            margin-bottom: 15px;
+            transform: translateX(23px);
+        }
+        .tall-window2 {
+            height: 50px;
+            width: 50px;
+            border: 2px solid blue;
+            background-color: #fff;
+            margin-bottom: 15px;
+            transform: translateX(23px);
+        }
+        .tall-window3 {
+            height: 50px;
+            width: 50px;
+            border: 2px solid blue;
+            background-color: #fff;
+            transform: translateX(23px);
+        }
+        .tall-door {
+            height: 80px;
+            width: 50px;
+            border: 3px solid brown;
+            transform: translateY(22px) translateX(22px);
+            background-color: brown;
+        }
+        .cloud {
+            display: inline-block;
+            width: 50px;
+            background-color: transparent;
+            vertical-align: top;
+            padding-left: 25px;
+            padding-top: 50px;
+        }
+
+        
+        
+        .house-roof {
+            height: 0px;
+            width: 0px;
+            border: 50px solid transparent;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-bottom-color: brown;
+            border-bottom-width: 70px;
+            
+        }
+        .roof-window {
+            width: 20px;
+            height: 20px;
+            border: 2px solid grey;
+            background-color: #fff;
+            transform: translateX(-12px) translateY(30px) rotate(45deg);
+        }
+        .house-wall {
+            background-color: antiquewhite;
+            height: 80px;
+        }
+        .house-window {
+            width: 30px;
+            height: 30px;
+            border: 2px solid brown ;
+            background-color: #fff;
+            transform: translateX(33px) translateY(23px);
+            
+        }
+        .house-window-border {
+            border: 2px solid brown;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="street">
+        <div class="house">
+            <div class="house-roof">
+                <div class="roof-window"></div>
+            </div>
+            <div class="house-wall">
+                <div class="house-window">
+                    <div class="house-window-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="building-tall">
+            <div class="tall-window1"></div>
+            <div class="tall-window2"></div>
+            <div class="tall-window3"></div>
+            <div class="tall-door"></div>
+        </div>
+
+        <div class="cloud"><img src="Bokehlicia-Captiva-Cloud.48.png" alt="cloud"></div>
+
+        
+    </div>
+    
+</body>
+</html>
